@@ -1,0 +1,126 @@
+[33mcommit c7efc94edc65a442b372f350c7a105fc64185386[m[33m ([m[1;36mHEAD -> [m[1;32mvam_test[m[33m)[m
+Merge: 6571452 a6516a8
+Author: Amadala Vamsi <vamsi.amadala@metamorsolutions.com>
+Date:   Thu Jul 12 13:56:36 2018 +0530
+
+    commited
+
+[33mcommit a6516a8f7e040f21949a9fc2497daef6b88117d2[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 99ef1cc b94bb2f
+Author: Praveen Thogaru <praveen.thogaru@metamorsolutions.com>
+Date:   Thu Jul 12 13:51:30 2018 +0530
+
+    merging login
+
+[33mcommit 99ef1cc4362886d5bdfa80d3cdfa736a388eef74[m[33m ([m[1;31morigin/praveen_branch[m[33m)[m
+Author: Praveen Thogaru <praveen.thogaru@metamorsolutions.com>
+Date:   Thu Jul 12 13:48:44 2018 +0530
+
+    worked on login
+
+[33mcommit b94bb2f9811e179cb08746d6eb43b7bbe1a00bd9[m[33m ([m[1;31morigin/sukanya[m[33m)[m
+Merge: e25e3d8 cb083d4
+Author: Duggineni Sukanya <sukanya.duggineni@metamorsolutions.com>
+Date:   Thu Jul 12 13:04:12 2018 +0530
+
+    solved merge conflicts
+
+[33mcommit e25e3d8981cdd2c8fd7c9e95292e0dbcd6b7d37d[m
+Author: Duggineni Sukanya <sukanya.duggineni@metamorsolutions.com>
+Date:   Thu Jul 12 13:00:23 2018 +0530
+
+    Completed the restApi of Registration
+
+[33mcommit cb083d4e630e6f981175f08b1b2752ebeaf6cd28[m
+Author: Praveen Thogaru <praveen.thogaru@metamorsolutions.com>
+Date:   Thu Jul 12 11:49:29 2018 +0530
+
+    worked on loginvalidation
+
+[33mcommit 6571452a04b180be3800bea28c60f49311b2f921[m[33m ([m[1;31morigin/vam_test[m[33m)[m
+Author: Amadala Vamsi <vamsi.amadala@metamorsolutions.com>
+Date:   Wed Jul 11 20:00:58 2018 +0530
+
+    completed marks api
+
+[33mcommit 06820903fe99b1b27f16dabf36126d6e021ebf20[m
+Author: Praveen Thogaru <praveen.thogaru@metamorsolutions.com>
+Date:   Wed Jul 11 19:16:20 2018 +0530
+
+    created uriconstants
+
+[33mcommit 220993194146caa1610015068134d474196efab2[m
+Merge: 7efe15d a4d5f8e
+Author: Praveen Thogaru <praveen.thogaru@metamorsolutions.com>
+Date:   Wed Jul 11 18:10:31 2018 +0530
+
+    commit man
+
+[33mcommit 7efe15d8346cfb7e6a039761023f94a42dc6cfca[m
+Author: Praveen Thogaru <praveen.thogaru@metamorsolutions.com>
+Date:   Wed Jul 11 18:07:33 2018 +0530
+
+    getting modified pom.xml into my localhost
+
+[33mcommit a4d5f8ee79012f91c5b0583b2b09aa9e53b8699e[m
+Merge: 1ffd389 2b70efd
+Author: Duggineni Sukanya <sukanya.duggineni@metamorsolutions.com>
+Date:   Wed Jul 11 18:04:45 2018 +0530
+
+    Log4j
+
+[33mcommit 2b70efd42ceae04a34f7a8ad7b0af9da266e44d1[m
+Author: Duggineni Sukanya <sukanya.duggineni@metamorsolutions.com>
+Date:   Wed Jul 11 18:02:34 2018 +0530
+
+    added Logger
+
+[33mcommit c16989c46800123dc1a0c04383d60f2859419a91[m
+Merge: 49ea238 1ffd389
+Author: Praveen Thogaru <praveen.thogaru@metamorsolutions.com>
+Date:   Wed Jul 11 17:50:19 2018 +0530
+
+    added swagger into my localhost
+
+[33mcommit 49ea2385be8ab90761c2a09715f43e465057089c[m
+Author: Praveen Thogaru <praveen.thogaru@metamorsolutions.com>
+Date:   Wed Jul 11 17:44:49 2018 +0530
+
+    changed url in application.properties
+
+[33mcommit 1ffd389c4247b06275176f706a9ad37de0493023[m
+Merge: e17fac8 2dd8f2d
+Author: Duggineni Sukanya <sukanya.duggineni@metamorsolutions.com>
+Date:   Wed Jul 11 17:24:59 2018 +0530
+
+    merging
+
+[33mcommit 2dd8f2d1fa01437ba08b1a66ea20dcb8ab27f7da[m
+Author: Duggineni Sukanya <sukanya.duggineni@metamorsolutions.com>
+Date:   Wed Jul 11 17:20:34 2018 +0530
+
+    changed registerModel to register and created a commonResponse class
+
+[33mcommit e17fac8072f56896f4346dd8ae4dfe33f56ad8d3[m
+Author: Amadala Vamsi <vamsi.amadala@metamorsolutions.com>
+Date:   Wed Jul 11 17:04:28 2018 +0530
+
+    add swagger dependencies
+
+[33mcommit 39a658b002cfc228d62a5b5a5fad74c24e63497d[m
+Author: Duggineni Sukanya <sukanya.duggineni@metamorsolutions.com>
+Date:   Wed Jul 11 16:37:48 2018 +0530
+
+    created new branch
+
+[33mcommit f7bcfb74a7675ef8c570b964670b6a5b88c6d7b0[m
+Author: Duggineni Sukanya <sukanya.duggineni@metamorsolutions.com>
+Date:   Wed Jul 11 16:33:51 2018 +0530
+
+    Testing
+
+[33mcommit 25152e47eda078e4a8e22f2954b836d0fa43c358[m
+Author: Praveen Thogaru <praveen.thogaru@metamorsolutions.com>
+Date:   Wed Jul 11 16:20:58 2018 +0530
+
+    created all common packages

@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+.container{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.red {
+    color: red; 
+}
+
+.black {
+    color: #ff0080;
+}
