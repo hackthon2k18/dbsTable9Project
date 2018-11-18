@@ -14,11 +14,11 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.springboot.DbsHackthon.common.CommonResponse;
+import com.springboot.DbsHackthon.dao.StudentMarksDaoImpl;
+import com.springboot.DbsHackthon.model.StudentMarks;
+import com.springboot.DbsHackthon.service.StudentMarksServiceImpl;
 import com.student.results.StudentResultsApplicationTests;
-import com.student.results.common.CommonResponse;
-import com.student.results.dao.StudentMarksDaoImpl;
-import com.student.results.model.StudentMarks;
-import com.student.results.service.StudentMarksServiceImpl;
 @RunWith(SpringJUnit4ClassRunner.class)
 public class MarksTesting extends StudentResultsApplicationTests{
 

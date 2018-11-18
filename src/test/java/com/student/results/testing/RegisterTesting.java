@@ -17,11 +17,11 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import com.student.results.common.CommonResponse;
-import com.student.results.common.StudentResponse;
-import com.student.results.dao.RegisterDaoImpl;
-import com.student.results.model.Register;
-import com.student.results.service.RegisterServiceImpl;
+import com.springboot.DbsHackthon.common.CommonResponse;
+import com.springboot.DbsHackthon.common.StudentResponse;
+import com.springboot.DbsHackthon.dao.RegisterDaoImpl;
+import com.springboot.DbsHackthon.model.Register;
+import com.springboot.DbsHackthon.service.RegisterServiceImpl;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @RunWith(MockitoJUnitRunner.class)
