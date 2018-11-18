@@ -1,35 +1,49 @@
+
+
 <!DOCTYPE html>
-<html ng-app="studentApp" ng-controller="StudentCtrl">
+<html>
 <head>
-
-<script src="js/app/angular.js"></script> 
-<script src="js/app/app.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-route.min.js"></script>
-  <style>
-  .modal-header, h4, .close {
-      background-color: #5cb85c;
-      color:white !important;
-      text-align: center;
-      font-size: 30px;
-  }
-  .modal-footer {
-      background-color: #f9f9f9;
-  }
-  </style>
-
-  
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
 </head>
 <body>
+<div class="container">
 
-<div ng-view>
 
-     </div>
+  <h2></h2>
 
- 
+  <!-- Modal -->
+    <div class="modal-dialog">
+    {{f}}
+      <!-- Modal content-->
+      <div class="modal-content" >
+        <div class="modal-header" style="padding:35px 50px;">
+          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;" >
+           <form role="form" name="loginFormData"  ng-submit="loginForm(login)" > 
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Enter Id</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter id" name="id" ng-model="login.id">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="password" class="form-control" id="psw" placeholder="Enter password" name="password" ng-model="login.password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-success btn-block" ><span class="glyphicon glyphicon-off"></span> Login</button>
+              If not registered :<a href ="${pageContext.request.contextPath}/static/register.jsp">Register Here</a>
+          </form> 
+            <div class="alert alert-danger" ng-if="res != null" align="center" style="color: red"><span>{{res}}</span></div>
+        </div>
+       
+      </div>
+</div>
+  </div> 
+  {{$scope.f}}
+  
+  
 </body>
 </html>
