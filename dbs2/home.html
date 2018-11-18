@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+    <html>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+    
+    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type = "text/css" href="{% static 'css_style/style.css'%}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    
+
+    <style>
+        body, html {
+            height: 100%;
+            font-family: "Inconsolata", sans-serif;
+        }
+        .bgimg {
+            background-position: center;
+            background-size: cover;
+            background-image: url("book-home.jpg");
+            min-height: 75%;
+        }
+        .menu {
+            display: none;
+        }
+    </style>
+    <body>
+
+
+    <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">E-Books</a>	
+                 </div>
+                <ul class="nav navbar-nav">
+                <li class="active"><a href="Home.html">Home</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="register.html">Register</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="login.html">Login</a></li>
+                </ul>
+                        
+            </div>    
+    </nav> 
+
+
+
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+        <span class="w3-tag">Help others and for books</span>
+    </div>
+    <div class="w3-display-middle w3-center">
+        <span class="w3-text-white" style="font-size:90px">P2P<br>BOOK LENDING<br>PLATFORM</span>
+    </div>
+    <div class="w3-display-bottomright w3-center w3-padding-large">
+        <span class="w3-text-white">DBS team </span>
+    </div>
+    </header>
+
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-sand w3-grayscale w3-large">
+
+    <!-- About Container -->
+    <div class="w3-container" id="about">
+    <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-64">
+            <span class="w3-tag w3-wide">P2P BOOK LENDING PLATFORM</span>
+        </h5>
+        <p> If you are student. And wants to borrow books from others at way lesser cost.  </p>
+        <div class="w3-panel w3-leftbar w3-light-grey">
+        <p><i>" For peace read books, for success read books and take actions." by XYZ.</i></p>
+        <p>Help others and for books and Knowledge</p>
+        </div>
+        <img src="book.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+
+        <div>
+                <br>
+            </div>
+
+        <div class="w3-center">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-primary btn-lg">Login</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-primary btn-lg">Register</button> 
+       </div>
+     </div>
+    </div>
+    <div>
+        <br>
+    </div>
+
+
+    <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-dark-grey w3-padding-48 w3-large">
+    <p> DBS hacktohire <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">By Dbs team 9</a></p>
+    </footer>
+
+    <script>
+    // Tabbed Menu
+    function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
+    document.getElementById("myLink").click();
+    </script>
+
+    </body>
+    </html>

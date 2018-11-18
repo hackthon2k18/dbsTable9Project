@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'/>
+<link rel="stylesheet" type = "text/css" href="{% static 'css_style/style.css'%}" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+<a class="navbar-brand" href="#">E-Books</a>  
+</div>
+<ul class="nav navbar-nav">
+<li class="active"><a href="Home.html">Home</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="active"><a href="BuyBook .html">Buy Book</a></li>
+<li class="active"><a href="AddBook.html">Sell Book</a></li>
+</ul>
+</div>
+</nav>
+<html>
+<head>
+<title>registration form</title>
+</head>
+<script>
+		function Engineering(){
+			<%temp = "engineering"%>
+		}
+		function Medical(){
+			<%temp = "medical"%>
+		}
+		function other(){
+			<%temp = "other"%>
+		}
+
+</script>
+<div class = "col-xs-4">
+</div>
+<div class = "container">
+  <div class ="row">
+    <div class = "col-xs-6" enctype="multipart/form-data">
+      <div class = "form-group">
+      <h2>Buy Book form</h2>
+       <form method = "post">
+        <input type="text" class = "form-group" id="Search"/> 
+        <input type = "submit" value="submit" class = "btn btn-primary">
+        </form>
+        <!-- <input type = "submit" value="Engineering" class = "btn btn-primary">
+        <input type = "submit" value ="Medical" class = "btn btn-primary" >
+        <input type = "submit" value ="Other" class = "btn btn-primary"> -->
+		
+       
+      
+    </div>
+    </div>
+  </div>
+</div>
+<hr>
+<center>
+ <button type="submit" class="img-thumbnail" onclick= "Engineering()">
+            <img src="engg.jpg" style="width: 200px;" class="img-thumbnail"/>
+        </button>
+		&nbsp &nbsp
+        <button type="submit" class="img-thumbnail" onclick= "Medical()">
+            <img src="med.jpg" style="width: 200px;" class="img-thumbnail"/>
+        </button>
+		&nbsp &nbsp
+        <button type="submit" class="img-thumbnail" onclick= "other()">
+            <img src="mba.jpg" style="width: 200px;" class="img-thumbnail"/>
+        </button>
+</center>
+<!--  div id="demo3">
+    		<table border = "1">
+    		<tr>
+    		<th>Book Name</th>
+    		<th>Price</th>
+    		<th>Publisher</th>
+    		<th>Author</th>
+    		</tr>
+    		 <%try{
+    				Class.forName("oracle.jdbc.driver.OracleDriver");
+    				Connection con=DriverManager.getConnection
+    						("jdbc:oracle:thin:@localhost:1521:xe","system","subhash");
+    				con.setAutoCommit(true);
+    				
+    				
+    				PreparedStatement pstmt=con.prepareStatement(" select * from Books where catogery = ?");
+    		        pstmt.setString(1,temp);
+    				ResultSet rs = pstmt.executeQuery();
+    				%><% 
+    		    while(rs.next()){
+    		    	
+    		  	%>
+    		  	
+    		  	<tr>
+    		  	<td> <%= rs.getString(1) %></td>
+    		  	<td><%= rs.getString(2)%></td>
+    		  	<td><%= rs.getString(3)%></td>
+    		  	<td><%= rs.getString(4)%></td>
+    		  	<td><%= rs.getString(5)%></td>
+    		  	</tr>
+    		  	<% 
+    		    }
+    				con.close();
+    		 }catch(SQLException e){
+    			 e.printStackTrace();}
+    		 catch(Exception e){e.printStackTrace();} 
+				%>
+    		 </table>
+  	  <br>
+  	  </div-->
+  	  
+  	  
+  	  <br>
+  	  
+<div class = "col-xs-2">
+</div>
+<div class = "container">
+  <div class ="row">
+    <div class = "col-xs-8" enctype="multipart/form-data">
+		<table class = "table">
+  <tr>
+    <th>Book Name</th>
+    <th>Author Name</th>
+    <th>Category</th>
+    <th>Price</th>
+     <td>Interested</td>
+  </tr>
+  <tr>
+    <td>Let us C</td>
+    <td>Yaswanth Kanethkar</td>
+    <td>Engineering</td>
+    <td>277</td>
+    <td><button>Buy</button></td>
+  </tr>
+  <tr>
+    <td>Introuction o algorithms</td>
+    <td>Thomas H kameron</td>
+    <td>Engineering</td>
+    <td>950</td>
+     <td><button>Buy</button></td>
+  </tr>
+ <tr>
+    <td>Data Mining</td>
+    <td>MK</td>
+    <td>Engineering</td>
+    <td>290</td>
+     <td><button>Buy</button></td>
+  </tr>
+  <tr>
+    <td>OS</td>
+    <td>G shiva ratri</td>
+    <td>Engineering</td>
+    <td>605</td>
+     <td><button>Buy</button></td>
+  </tr>
+  <tr>
+    <td>Still alice</td>
+    <td>leessa jenova</td>
+    <td>Engineering</td>
+    <td>600</td>
+     <td><button>Buy</button></td>
+  </tr>
+  <tr>
+    <td>Let us C</td>
+    <td>Yaswanth Kanethkar</td>
+    <td>Engineering</td>
+    <td>277</td>
+    <td><button>Buy</button></td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
+</html>
